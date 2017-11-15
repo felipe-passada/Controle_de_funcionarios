@@ -21,17 +21,7 @@
                     <a class="nav-link" href="#">Opinions</a>
                 </li>
             </ul>
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-instagram"></i></a>
-                </li>
-            </ul>
+
         </div>
     </nav>
 

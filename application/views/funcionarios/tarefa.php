@@ -2,9 +2,8 @@
   <thead>
     <tr>
       <th>#</th>
-      <th>Nome</th>
-      <th>Email</th>
-      <th>Cargo</th>
+      <th>Tarefa</th>
+      <th>Descriçao</th>
     </tr>
   </thead>
 <div class="container">
