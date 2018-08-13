@@ -1,10 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 //Controler Principal
-class Welcome extends MY_Controller {
+class Welcome extends CI_Controller {
+
+	public function __construct(){
+		parent::__construct();
+		
+		$logado = $this->session->userdata("logado");
+
+		if ($logado != 1)	redirect(base_url('Login'));
+		
+	}
 
 	public function index()
 	{
+		$this->load->helper('url');
+		$this->load->view('commons/header');
 		$this->load->view('login');
 	}
 
